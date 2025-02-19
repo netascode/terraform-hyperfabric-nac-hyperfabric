@@ -1,0 +1,16 @@
+defaults:
+  hyperfabric:
+    fabrics:
+      topology: MESH
+      nodes:
+        ports:
+          roles: [HOST_PORT]
+          enabled: true
+          sub_interfaces:
+            enabled: true
+      vnis:
+        svi:
+          enabled: true
+    users:
+      role: READ_ONLY
+      enabled: true

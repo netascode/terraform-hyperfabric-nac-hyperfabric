@@ -1,0 +1,41 @@
+version: ">= 0.14.0"
+
+formatter: markdown table
+
+content: |-
+  # Terraform Network-as-Code Cisco Hyperfabric Module
+
+  A Terraform module to configure Cisco Hyperfabric.
+
+  ## Usage
+
+  This module supports an inventory driven approach, where a complete Hyperfabric configuration or parts of it are either modeled in one or more YAML files or natively using Terraform variables.
+
+  ## Examples
+
+  Configuring a Fabric using YAML:
+
+  #### `fabric.yaml`
+
+  ```yaml
+  {{ include "./examples/fabric/fabric.yaml" }}
+  ```
+
+  #### `main.tf`
+
+  ```hcl
+  {{ include "./examples/fabric/main.tf" }}
+  ```
+
+  {{ .Requirements }}
+  {{ .Inputs }}
+  {{ .Outputs }}
+  {{ .Resources }}
+  {{ .Modules }}
+output:
+  file: README.md
+  mode: replace
+
+sort:
+  enabled: true
+  by: required

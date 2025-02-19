@@ -1,0 +1,9 @@
+---
+hyperfabric:
+  fabrics:
+    - name: My Fabric 01
+      description: My first HyperFabric
+      address: 170 West Tasman Dr.
+      city: San Jose
+      country: USA
+      location: sj01-1-101-AAA01
