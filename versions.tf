@@ -3,7 +3,7 @@ terraform {
 
   required_providers {
     hyperfabric = {
-      source  = "cisco-open/hyperfabric"
+      source  = "CiscoDevNet/hyperfabric"
       version = ">= 0.1.0"
     }
     utils = {

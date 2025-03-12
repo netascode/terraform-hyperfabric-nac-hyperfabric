@@ -62,16 +62,16 @@ module "hyperfabric" {
 
 | Name | Type |
 |------|------|
-| [hyperfabric_connection.connection](https://registry.terraform.io/providers/cisco-open/hyperfabric/latest/docs/resources/connection) | resource |
-| [hyperfabric_fabric.fabric](https://registry.terraform.io/providers/cisco-open/hyperfabric/latest/docs/resources/fabric) | resource |
-| [hyperfabric_node.node](https://registry.terraform.io/providers/cisco-open/hyperfabric/latest/docs/resources/node) | resource |
-| [hyperfabric_node_loopback.node_loopback](https://registry.terraform.io/providers/cisco-open/hyperfabric/latest/docs/resources/node_loopback) | resource |
-| [hyperfabric_node_management_port.node_management_port](https://registry.terraform.io/providers/cisco-open/hyperfabric/latest/docs/resources/node_management_port) | resource |
-| [hyperfabric_node_port.node_port](https://registry.terraform.io/providers/cisco-open/hyperfabric/latest/docs/resources/node_port) | resource |
-| [hyperfabric_node_sub_interface.node_sub_interface](https://registry.terraform.io/providers/cisco-open/hyperfabric/latest/docs/resources/node_sub_interface) | resource |
-| [hyperfabric_user.user](https://registry.terraform.io/providers/cisco-open/hyperfabric/latest/docs/resources/user) | resource |
-| [hyperfabric_vni.vni](https://registry.terraform.io/providers/cisco-open/hyperfabric/latest/docs/resources/vni) | resource |
-| [hyperfabric_vrf.vrf](https://registry.terraform.io/providers/cisco-open/hyperfabric/latest/docs/resources/vrf) | resource |
+| [hyperfabric_connection.connection](https://registry.terraform.io/providers/CiscoDevNet/hyperfabric/latest/docs/resources/connection) | resource |
+| [hyperfabric_fabric.fabric](https://registry.terraform.io/providers/CiscoDevNet/hyperfabric/latest/docs/resources/fabric) | resource |
+| [hyperfabric_node.node](https://registry.terraform.io/providers/CiscoDevNet/hyperfabric/latest/docs/resources/node) | resource |
+| [hyperfabric_node_loopback.node_loopback](https://registry.terraform.io/providers/CiscoDevNet/hyperfabric/latest/docs/resources/node_loopback) | resource |
+| [hyperfabric_node_management_port.node_management_port](https://registry.terraform.io/providers/CiscoDevNet/hyperfabric/latest/docs/resources/node_management_port) | resource |
+| [hyperfabric_node_port.node_port](https://registry.terraform.io/providers/CiscoDevNet/hyperfabric/latest/docs/resources/node_port) | resource |
+| [hyperfabric_node_sub_interface.node_sub_interface](https://registry.terraform.io/providers/CiscoDevNet/hyperfabric/latest/docs/resources/node_sub_interface) | resource |
+| [hyperfabric_user.user](https://registry.terraform.io/providers/CiscoDevNet/hyperfabric/latest/docs/resources/user) | resource |
+| [hyperfabric_vni.vni](https://registry.terraform.io/providers/CiscoDevNet/hyperfabric/latest/docs/resources/vni) | resource |
+| [hyperfabric_vrf.vrf](https://registry.terraform.io/providers/CiscoDevNet/hyperfabric/latest/docs/resources/vrf) | resource |
 | [local_sensitive_file.defaults](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/sensitive_file) | resource |
 | [terraform_data.validation](https://registry.terraform.io/providers/hashicorp/terraform/latest/docs/resources/data) | resource |
 ## Modules
